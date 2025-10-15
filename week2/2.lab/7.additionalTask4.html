@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align:  center; color: green;">
+        <h2>CV Data Entry Form</h2><hr>
+    </div>
+    <div>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <label for="name">Full Name:</label>
+                <input type="text" name="name:" id="name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email:"><br><br>
+
+                <label for="location">Location:</label>
+                <input id="location" type="text"><br><br>
+
+                <label for="myFile">Upload Profile Picture</label>
+                <input id="myFile" type="file" name="myFile:">
+                
+
+
+            
+            </fieldset>
+        
+            <br>
+
+
+        
+            <fieldset>
+                <legend><b>Introduction</b></legend>
+                <label for="introducrion">Write a short introduction about yourself:</label><br>
+                <textarea id="introduction" name="introduction" cols="40" rows="4"></textarea><br><br>
+            </fieldset>
+
+
+            <fieldset>
+                <legend><b>Skills</b></legend>
+                <input id="skill1" type="checkbox" name="skill1" value="HTML">
+                <label for="skill1">HTML</label><br>
+
+
+                <input id="skill2" type="checkbox" name="skill2" value="CSS">
+                <label for="skill2">CSS</label><br>
+
+                <input id="skill3" type="checkbox" name="skill3" value="JS">
+                <label for="skill3">JS</label>
+
+              
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Experience</b></legend>
+                <label for="position">Current position</label>
+                <input id="position" type="text" name="Current position:"><br><br>
+
+                <label for="experience">Describe your experience</label><br>
+                <textarea id="experience" name="experience" cols="40" rows="5"></textarea><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><b>education & certification</b></legend>
+                <label for="myFile">Degree:</label>
+                <select id="myFile" name="degre:">
+                    <option>High School</option>
+                    <option>University</option>
+                </select><br><br>
+
+                <label for="certifications">Certifications</label><br>
+                <textarea id="certifications" name="certifications:" cols="40" rows="5"></textarea>
+            </fieldset>
+
+
+            <fieldset>
+                <legend><b>Personal Projects</b></legend>
+                <label for="projects">Describe your personal projects:</label><br>
+                <textarea id="projects" name="projects:" cols="40" rows="5"></textarea>
+            </fieldset><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+        
+    </div>
+</body>
+</html>

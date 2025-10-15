@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+    Create a survey form
+Add a question as a paragraph: "What types of music do you enjoy?"
+Provide checkboxes for multiple selections: Rock, Pop, Jazz, Classical.
+Users should be able to select multiple options.
+Add a submit button.
+Add the attribute action="#" to indicate form submission.
+
+    -->
+    <p>What types of music do you enjoy?</p>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <input type="checkbox" id="rock" name="option1">
+        <label for="rock" >Rock</label><br>
+
+
+        <input type="checkbox" name="option2" id="pop">
+        <lablel for="pop">Pop</lablel><br>
+
+        <input type="checkbox" name="option3" id="jazz">
+        <label for="jazz">Jazz</label><br>
+
+
+        <input type="checkbox" name="option4" id="classic">
+        <label for="classic">Classical</label><br><br>
+
+        <input type="submit" value="Submit">
+    </for>
+</body>
+</html>

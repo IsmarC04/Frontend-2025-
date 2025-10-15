@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  
+    Create a form to Select a Payment Method
+Add a question: "Choose your preferred payment method:"
+Provide radio buttons: Credit Card, PayPal, Bank Transfer.
+Add a submit button.
+Add the attribute action="#".
+
+    -->
+    <h2>Choose your preferred payment method:</h2>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <input type="radio" id="card" name="payment method" value="Credit Card">
+        <label for="card">Credit card</label><br>
+
+        <input type="radio" id="paypal" name="payment method" value="PayPal">
+        <label for="paypal">Paypal</label><br>
+
+
+        <input type="radio" id="transfer" name="payment method" value="Bank Transfer">
+        <label for="transfer">Bank Transfer</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
